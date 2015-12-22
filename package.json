@@ -1,0 +1,42 @@
+{
+  "name": "js-xlsx-gen",
+  "version": "0.0.0",
+  "description": "Generates XLSX files from JSON definition",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "xlsx-gen": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node test/index",
+    "patch": "npm version patch && git push --follow-tags && npm publish",
+    "minor": "npm version minor && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panosoft/js-xlsx-gen.git"
+  },
+  "keywords": [
+    "xlsx",
+    "json",
+    "excel",
+    "spreadsheet"
+  ],
+  "author": "Charles Scalfani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panosoft/js-xlsx-gen/issues"
+  },
+  "homepage": "https://github.com/panosoft/js-xlsx-gen",
+  "dependencies": {
+    "@panosoft/ramda-utils": "^0.2.4",
+    "co": "^4.6.0",
+    "get-stdin": "^5.0.1",
+    "is_js": "^0.7.4",
+    "moment": "^2.10.6",
+    "ramda": "^0.18.0",
+    "xlsx": "git://github.com/protobi/js-xlsx.git"
+  }
+}

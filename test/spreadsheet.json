@@ -1,0 +1,169 @@
+{
+  "xlsGenOptions": {
+    "defaultDateFormat": "yyyy-mm-dd"
+  },
+  "generateOptions": {
+    "header": {
+      "font": {
+        "name": "Verdana",
+        "sz": 18,
+        "color": {
+          "rgb": "FF8800"
+        }
+      },
+      "fill": {
+        "fgColor": {
+          "rgb": "aa00ff"
+        }
+      }
+    },
+    "data": {
+      "font": {
+        "name": "Verdana",
+        "sz": 11,
+        "color": {
+          "rgb": "FF0000"
+        }
+      },
+      "fill": {
+        "fgColor": {
+          "rgb": "ffaa00"
+        }
+      }
+    }
+  },
+  "spreadsheet": {
+    "sheetA": {
+      "header": {
+        "styles": {
+          "row": {
+            "alignment": {
+              "horizontal": "center"
+            },
+            "font": {
+              "bold": true
+            }
+          },
+          "columns": {
+            "1": {
+              "font": {
+                "italic": true
+              }
+            }
+          }
+        },
+        "columns": [
+          {
+            "v": "ColA",
+            "s": {
+              "alignment": {
+                "horizontal": "center"
+              },
+              "font": {
+                "bold": true
+              }
+            }
+          },
+          {
+            "v": "ColB",
+            "s": {
+              "alignment": {
+                "horizontal": "center"
+              },
+              "font": {
+                "bold": true
+              }
+            }
+          }
+        ]
+      },
+      "data": {
+        "rows": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      }
+    },
+    "sheetB": {
+      "header": {
+        "columns": [
+          "Column A",
+          "Column B",
+          "Column C",
+          "Column D"
+        ]
+      },
+      "data": {
+        "styles": {
+          "columns": {
+            "2": {
+              "numFmt": "$#,##0.00;$(#,##0.00)"
+            },
+            "3": {
+              "font": {
+                "color": {
+                  "rgb": "00ff00"
+                }
+              }
+            }
+          }
+        },
+        "rows": [
+          [
+            "2015-12-22T20:31:39.506Z",
+            true,
+            {
+              "v": "2015-12-22T20:31:39.506Z",
+              "s": {
+                "numFmt": "mm-dd-yyyy"
+              }
+            },
+            20
+          ],
+          [
+            {
+              "v": -0.02,
+              "s": {
+                "numFmt": "$#,##0.00;$(#,##0.00)",
+                "font": {
+                  "color": {
+                    "rgb": "ffffff"
+                  }
+                },
+                "fill": {
+                  "fgColor": {
+                    "rgb": "ff0000"
+                  }
+                }
+              }
+            },
+            {
+              "v": 3,
+              "s": {
+                "numFmt": "$#,##0.00;$(#,##0.00)",
+                "font": {
+                  "color": {
+                    "rgb": "00ffff"
+                  }
+                },
+                "fill": {
+                  "fgColor": {
+                    "rgb": "ffffff"
+                  }
+                }
+              }
+            },
+            1.23,
+            40
+          ]
+        ]
+      }
+    }
+  }
+}
