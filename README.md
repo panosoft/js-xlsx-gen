@@ -2,11 +2,7 @@
 
 Simple declarative layer built on top of [`protobi/js-xlsx`](https://github.com/protobi/js-xlsx) which is a fork of [`SheetJS/js-xlsx`](https://github.com/SheetJS/js-xlsx) that adds styles.
 
-[![npm version](https://img.shields.io/npm/v/@panosoft/js-xlsx-gen.svg)](https://www.npmjs.com/package/@panosoft/js-xlsx-gen)
-[![npm license](https://img.shields.io/npm/l/@panosoft/js-xlsx-gen.svg)](https://www.npmjs.com/package/@panosoft/js-xlsx-gen)
-[![Travis](https://img.shields.io/travis/panosoft/js-xlsx-gen.svg)](https://travis-ci.org/panosoft/js-xlsx-gen)
-[![David](https://img.shields.io/david/panosoft/js-xlsx-gen.svg)](https://david-dm.org/panosoft/js-xlsx-gen)
-[![npm downloads](https://img.shields.io/npm/dm/@panosoft/js-xlsx-gen.svg)](https://www.npmjs.com/package/@panosoft/js-xlsx-gen)
+[![npm version](https://img.shields.io/npm/v/js-xlsx-gen.svg)](https://www.npmjs.com/package/js-xlsx-gen)
 
 ## Installation
 
