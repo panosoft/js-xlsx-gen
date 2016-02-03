@@ -37,6 +37,6 @@
     "is_js": "^0.7.4",
     "moment": "^2.10.6",
     "ramda": "^0.18.0",
-    "xlsx": "git://github.com/protobi/js-xlsx.git"
+    "xlsx-style": "^0.8.7"
   }
 }
