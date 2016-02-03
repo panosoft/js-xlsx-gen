@@ -76,4 +76,4 @@ var workbook = xlsGen.generate(spreadsheet, {
 	data: {font: { name: "Verdana", sz: 11, color: {rgb: "FF0000"}}, fill: {fgColor: {rgb: "ffaa00"}}}
 });
 xlsGen.writeFile(workbook, 'workbook.xlsx');
-//console.log(XLSX.write(workbook, {bookType:'xlsx', type:'binary'}));
+//console.log(xlsGen.write(workbook, {bookType:'xlsx', type:'binary'}));
