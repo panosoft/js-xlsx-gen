@@ -2,7 +2,7 @@
   "name": "js-xlsx-gen",
   "version": "0.1.1",
   "description": "Generates XLSX files from JSON definition",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "test": "test"
   },
